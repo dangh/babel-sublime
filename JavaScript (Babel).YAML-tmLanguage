@@ -334,7 +334,7 @@ repository:
       begin: ([_$a-zA-Z][$\w]*)(?=\s*[:=])
       beginCaptures:
         '1': {name: variable.other.property.js}
-      end: (?=\s*[;}])
+      end: (?=\s*[;}]?)
       patterns:
       - include: '#flowtype-annotation'
       - include: '#expression'
