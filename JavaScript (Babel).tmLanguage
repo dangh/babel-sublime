@@ -1272,7 +1272,7 @@
 			<array>
 				<dict>
 					<key>begin</key>
-					<string>(&lt;)([_$a-zA-Z][-$:.\w]*[$\w]*)</string>
+					<string>(&lt;)([_$a-zA-Z][-$:\w]*[$\w]*)(\.?)([-$:\w]*[$\w]*)</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>1</key>
@@ -1285,9 +1285,19 @@
 							<key>name</key>
 							<string>meta.tag.jsx entity.name.tag.jsx</string>
 						</dict>
+						<key>3</key>
+						<dict>
+							<key>name</key>
+							<string>meta.tag.jsx punctuation.definition.tag.separator.jsx</string>
+						</dict>
+						<key>4</key>
+						<dict>
+							<key>name</key>
+							<string>meta.tag.jsx entity.name.subtag.jsx</string>
+						</dict>
 					</dict>
 					<key>end</key>
-					<string>(&lt;/)(\2)(&gt;)|(/&gt;)</string>
+					<string>(&lt;/)(\2)(\3)(\4)(&gt;)|(/&gt;)</string>
 					<key>endCaptures</key>
 					<dict>
 						<key>1</key>
@@ -1303,9 +1313,19 @@
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>meta.tag.jsx punctuation.definition.tag.end.jsx</string>
+							<string>meta.tag.jsx punctuation.definition.tag.separator.jsx</string>
 						</dict>
 						<key>4</key>
+						<dict>
+							<key>name</key>
+							<string>meta.tag.jsx entity.name.subtag.jsx</string>
+						</dict>
+						<key>5</key>
+						<dict>
+							<key>name</key>
+							<string>meta.tag.jsx punctuation.definition.tag.end.jsx</string>
+						</dict>
+						<key>6</key>
 						<dict>
 							<key>name</key>
 							<string>meta.tag.jsx punctuation.definition.tag.end.jsx</string>
