@@ -3618,6 +3618,12 @@
 					<key>name</key>
 					<string>constant.character.escape.js</string>
 				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b[_$A-Z][_$A-Z\d]{2,}\b</string>
+					<key>name</key>
+					<string>string.quoted.constant.js</string>
+				</dict>
 			</array>
 		</dict>
 		<key>styled-components</key>

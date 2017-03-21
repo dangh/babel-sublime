@@ -1096,6 +1096,9 @@ repository:
     - name: constant.character.escape.js
       match: \\([1-7][0-7]{0,2}|[0-7]{2,3}|[bfnrtv0'"\\]|x\h{2}|u\{\h+\}|u\h{4})
 
+    - name: string.quoted.constant.js
+      match: \b[_$A-Z][_$A-Z\d]{2,}\b
+
   # https://github.com/styled-components/styled-components
   styled-components:
     patterns:
