@@ -804,6 +804,9 @@ repository:
     - name: constant.language.nan.js
       match: (?<!\.)\b(NaN)\b
 
+    - name: constant.other.user-defined.js
+      match: (?<!\.)\b([_$A-Z][_$A-Z\d]*)\b
+
   literal-constructor:
     patterns:
     - name: meta.instance.constructor.js

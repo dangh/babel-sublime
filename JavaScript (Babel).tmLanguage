@@ -2652,6 +2652,12 @@
 					<key>name</key>
 					<string>constant.language.nan.js</string>
 				</dict>
+				<dict>
+					<key>match</key>
+					<string>(?&lt;!\.)\b([_$A-Z][_$A-Z\d]*)\b</string>
+					<key>name</key>
+					<string>constant.other.user-defined.js</string>
+				</dict>
 			</array>
 		</dict>
 		<key>literal-language-variable</key>
