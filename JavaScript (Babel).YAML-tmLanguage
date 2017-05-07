@@ -200,6 +200,7 @@ repository:
         - include: '#class-method-storage'
         - include: '#brackets'
         - include: '#comments'
+        - include: '#literal-template-string'
 
   flowtype-declaration:
     patterns:
