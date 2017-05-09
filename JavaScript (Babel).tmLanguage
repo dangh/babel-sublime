@@ -1968,15 +1968,19 @@
 								</dict>
 								<dict>
 									<key>include</key>
+									<string>#class-method-storage</string>
+								</dict>
+								<dict>
+									<key>include</key>
 									<string>#class-properties</string>
 								</dict>
 								<dict>
 									<key>include</key>
-									<string>#class-method-definition</string>
+									<string>#expression</string>
 								</dict>
 								<dict>
 									<key>include</key>
-									<string>#class-method-storage</string>
+									<string>#class-method-definition</string>
 								</dict>
 								<dict>
 									<key>include</key>
@@ -1985,10 +1989,6 @@
 								<dict>
 									<key>include</key>
 									<string>#comments</string>
-								</dict>
-								<dict>
-									<key>include</key>
-									<string>#literal-template-string</string>
 								</dict>
 							</array>
 						</dict>

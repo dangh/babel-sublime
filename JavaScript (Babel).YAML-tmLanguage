@@ -195,12 +195,12 @@ repository:
         end: (?=})
         patterns:
         - include: '#es7-decorators'
-        - include: '#class-properties'
-        - include: '#class-method-definition'
         - include: '#class-method-storage'
+        - include: '#class-properties'
+        - include: '#expression'
+        - include: '#class-method-definition'
         - include: '#brackets'
         - include: '#comments'
-        - include: '#literal-template-string'
 
   flowtype-declaration:
     patterns:
